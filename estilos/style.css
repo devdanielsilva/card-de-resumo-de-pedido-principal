@@ -5,8 +5,11 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
-body{
+html {
     background-color: #E0E8FF;
+}
+
+body {
     background: url('../images/pattern-background-desktop.svg');
     background-size: 100%;
     background-repeat: no-repeat;
