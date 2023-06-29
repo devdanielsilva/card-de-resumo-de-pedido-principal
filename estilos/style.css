@@ -53,8 +53,8 @@ section strong {
     color: #1F2E55;
 }
 
-section img {
-    border-radius: 1rem 1rem 0 0;
+main .resumo-de-pedido img {
+    border-radius: 1rem 1rem 0% 0%;
     width: 100%;
 }
 
