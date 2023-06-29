@@ -124,5 +124,9 @@ section #cancel-order:hover{
     color: #1F2E55;
 }
 
-
+@media screen and (max-width: 980px) {
+    section {
+        padding: 0 3rem;
+    }
+}
 
