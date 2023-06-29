@@ -86,3 +86,12 @@ section .informations a:hover {
     color: #766CF1;
     text-decoration: none;
 }
+
+section .informations img{
+    width: 3rem;
+    height: 3rem;
+}
+
+section button{
+    
+}
