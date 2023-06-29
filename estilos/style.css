@@ -111,7 +111,7 @@ section button:hover {
     background-color: #766CF1;
 }
 
-#cancel-order {
+section #cancel-order {
     margin-bottom: 2rem;
     text-decoration: none;
     color: #717FA6;
@@ -119,4 +119,10 @@ section button:hover {
     font-size: 0.95rem;
     transition: color 0.3s;
 }
+
+section #cancel-order:hover{
+    color: #1F2E55;
+}
+
+
 
