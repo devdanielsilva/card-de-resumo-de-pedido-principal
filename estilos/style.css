@@ -48,3 +48,7 @@ section span {
     text-align: center;
     color: #717FA6;
 }
+
+section strong {
+    color: #1F2E55;
+}
