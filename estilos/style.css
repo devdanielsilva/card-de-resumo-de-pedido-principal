@@ -107,3 +107,6 @@ section button{
     transition: background 0.3s;
 }
 
+section button:hover {
+    background-color: #766CF1;
+}
