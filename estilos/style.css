@@ -74,3 +74,15 @@ section .informations .price {
     flex-direction: column;
     margin-left: 1rem;
 }
+
+section .informations a {
+    color: #382AE1;
+    font-weight: 600px;
+    font-size: 90%;
+    transition: all 0.3s;
+}
+
+section .informations a:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
