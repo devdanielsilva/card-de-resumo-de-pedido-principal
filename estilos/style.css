@@ -120,8 +120,16 @@ section #cancel-order {
     transition: color 0.3s;
 }
 
-section #cancel-order:hover{
+section #cancel-order:hover {
     color: #1F2E55;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background: url(../images/pattern-background-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -129,4 +137,3 @@ section #cancel-order:hover{
         padding: 0 3rem;
     }
 }
-
