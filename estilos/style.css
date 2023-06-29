@@ -53,12 +53,20 @@ section strong {
     color: #1F2E55;
 }
 
-section img{
+section img {
     border-radius: 1rem 1rem 0 0;
     width: 100%;
 }
 
-section .main{
+section .informations {
+    background: #F7F9FF;
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 0.8rem;
 }
+
+section .informations .price {}
