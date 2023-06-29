@@ -87,12 +87,12 @@ section .informations a:hover {
     text-decoration: none;
 }
 
-section .informations img{
+section .informations img {
     width: 3rem;
     height: 3rem;
 }
 
-section button{
+section button {
     cursor: pointer;
     margin-bottom: 1.5rem;
     padding: 1rem 0;
@@ -110,3 +110,13 @@ section button{
 section button:hover {
     background-color: #766CF1;
 }
+
+#cancel-order {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #717FA6;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
