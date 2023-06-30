@@ -63,7 +63,7 @@ section .informations {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem 0;
+    margin: 1rem 0;
     padding: 1.5rem 1rem;
     width: 20rem;
     border-radius: 0.8rem;
