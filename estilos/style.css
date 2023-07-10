@@ -51,7 +51,6 @@ section span {
 
 section strong {
     color: #1F2E55;
-    padding: opx 45px 0px 45px;
 }
 
 main .resumo-de-pedido img {
@@ -68,6 +67,11 @@ section .informations {
     padding: 1.5rem 1rem;
     width: 100%;
     border-radius: 0.8rem;
+}
+
+section .informations .music-price {
+    display: flex;
+    align-items: center;
 }
 
 section .informations .price {
