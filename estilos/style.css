@@ -65,7 +65,7 @@ section .informations {
     justify-content: space-between;
     margin: 1rem 0;
     padding: 1.5rem 1rem;
-    width: 20rem;
+    width: 100%;
     border-radius: 0.8rem;
 }
 
