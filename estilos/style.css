@@ -150,9 +150,11 @@ section #cancel-order:hover {
     }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 360px) {
     section {
-        max-width: 75%;
+        max-width: 60%;
+        padding:0%;
+
     }
 
     section .resumo-de-pedido {
@@ -162,15 +164,5 @@ section #cancel-order:hover {
     section span {
         display: flex;
         max-width: 200px;
-    }
-
-    section .resumo-de-pedido .informations {
-        display: flex;
-        flex-direction: column;
-    }
-
-    section .resumo-de-pedido .informations .music-price {
-        display: flex;
-        flex-direction: column;
     }
 }
