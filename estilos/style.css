@@ -51,6 +51,7 @@ section span {
 
 section strong {
     color: #1F2E55;
+    padding: opx 45px 0px 45px;
 }
 
 main .resumo-de-pedido img {
