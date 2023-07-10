@@ -129,16 +129,30 @@ section #cancel-order:hover {
     color: #1F2E55;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 380px) {
     body {
         background: url(../images/pattern-background-mobile.svg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
+
+    section .resumo-de-pedido {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+
+    section .resumo-de-pedido img {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 980px) {
-    section {
-        padding: 0 3rem;
+@media screen and (max-width: px) {
+    section .resumo-de-pedido {
+        padding: 14px 10px 6px 10px;
+
     }
 }
