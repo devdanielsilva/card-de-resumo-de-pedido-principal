@@ -152,17 +152,10 @@ section #cancel-order:hover {
 
 @media screen and (max-width: 360px) {
     section {
-        max-width: 60%;
-        padding:0%;
-
-    }
-
-    section .resumo-de-pedido {
-        max-width: 200px;
-    }
-
-    section span {
         display: flex;
-        max-width: 200px;
+        flex-direction: column;
+        max-width: 60%;
+        padding: 0%;
+
     }
 }
