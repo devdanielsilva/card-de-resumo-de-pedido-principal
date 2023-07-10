@@ -150,7 +150,7 @@ section #cancel-order:hover {
     }
 }
 
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 412px) {
     section {
         max-width: 75%;
     }
