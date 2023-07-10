@@ -150,9 +150,27 @@ section #cancel-order:hover {
     }
 }
 
-@media screen and (max-width: px) {
-    section .resumo-de-pedido {
-        padding: 14px 10px 6px 10px;
+@media screen and (max-width: 290px) {
+    section {
+        max-width: 75%;
+    }
 
+    section .resumo-de-pedido {
+        max-width: 200px;
+    }
+
+    section span {
+        display: flex;
+        max-width: 200px;
+    }
+
+    section .resumo-de-pedido .informations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .resumo-de-pedido .informations .music-price {
+        display: flex;
+        flex-direction: column;
     }
 }
